@@ -6,6 +6,11 @@ name: ks-faq
 description: "快手公开数据评论问答库（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "快手评论问答库｜视频提问·FAQ整理·客服话术·知识库沉淀"
+display_name_en: "Kuaishou FAQ"
+description_zh: "快手公开数据只读问答库技能：关键词搜索视频（综合/最多点赞/最新发布排序，时间与时长筛选）、博主主页作品列表与粉丝/获赞互动数据、单条视频详情、视频评论抓取，全部以结构化 JSON 输出；从评论区归集高频提问与解答，沉淀为 FAQ 问答对与客服话术知识库，可导入 Excel / BI 做问答运营与周报。出参覆盖标题、作者、点赞/评论/收藏/分享、标签、链接。包月搜索/作品/评论分别最多 30/50/60 条，按量单次最多 10000 条。零第三方依赖（Node.js 16.14+），stdout 纯 JSON、日志走 stderr，支持 --save 落盘。"
+description_en: "Kuaishou comment Q&A library skill (read-only public data): keyword search for videos with sorting (relevance / most liked / newest) plus time and duration filters, creator profile post lists with follower and liked stats, single video detail, and video comment fetching. Collects frequent questions and answers from comment sections and turns them into FAQ pairs and customer-service playbook knowledge bases for Excel / BI import and weekly reporting. Output covers title, author, likes, comments, collects, shares, tags and links as structured JSON. Monthly plan: up to 30 searches, 50 post pulls and 60 comment pulls; pay-as-you-go up to 10,000 records per call. Zero third-party dependencies (Node.js 16.14+), pure JSON on stdout, logs on stderr, optional --save for local analysis. Requires GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
